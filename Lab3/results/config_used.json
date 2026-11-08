@@ -1,0 +1,59 @@
+{
+  "variant": 1,
+  "student_number": 11,
+  "group": 517,
+  "group_index": 1,
+  "year_suffix": 26,
+  "track": "A",
+  "data_seed": 110517,
+  "projects": 16,
+  "cost_limit": 105,
+  "staff_limit": 43,
+  "dependencies": [
+    [
+      9,
+      2
+    ],
+    [
+      12,
+      5
+    ],
+    [
+      15,
+      3
+    ]
+  ],
+  "population": 80,
+  "evaluations": 12000,
+  "runs": 20,
+  "seed_start": 300,
+  "crossover_probability": 0.9,
+  "mutation_probability": 0.0625,
+  "weights": [
+    [
+      0.8,
+      0.1,
+      0.1
+    ],
+    [
+      0.1,
+      0.8,
+      0.1
+    ],
+    [
+      0.1,
+      0.1,
+      0.8
+    ],
+    [
+      0.34,
+      0.33,
+      0.33
+    ],
+    [
+      0.5,
+      0.25,
+      0.25
+    ]
+  ]
+}

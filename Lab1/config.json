@@ -1,0 +1,20 @@
+{
+  "variant": 1,
+  "student_number": 11,
+  "group": "517",
+  "Q": 1,
+  "Y": 26,
+  "runs": 20,
+  "seed_start": 1000,
+  "budget": 30000,
+  "success_tolerance": 0.000001,
+  "ga": {
+    "population": 100,
+    "elite": 2,
+    "tournament": 3,
+    "crossover_probability": 0.9,
+    "blx_alpha": 0.3,
+    "mutation_scale": 0.05
+  },
+  "comparison_mutation_scale": 0.15
+}

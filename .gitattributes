@@ -1,0 +1,4 @@
+# Preserve exact source, input, and result bytes used by verification.json.
+* -text
+*.pdf binary
+*.png binary

@@ -1,0 +1,26 @@
+{
+  "variant": {
+    "N": 11,
+    "group": 517,
+    "Q": 1,
+    "Y": 26,
+    "V": 1
+  },
+  "topic": 1,
+  "data_seed": 20261104,
+  "cities": 40,
+  "runs": 30,
+  "seed_start": 4000,
+  "population": 80,
+  "budget": 18000,
+  "crossover_probability": 0.9,
+  "mutation_probability": 0.3,
+  "tournament_size": 3,
+  "elites": 2,
+  "local_probability": 0.2,
+  "sparse_local_probability": 0.005,
+  "local_checks": 120,
+  "trace_step": 200,
+  "data_file": "C:\\Users\\Stepan\\Documents\\MEPhI\\Grade 5\\Evolutionary algorithms\\Lab4\\data.csv",
+  "data_sha256": "b25ee6db06b79b8fb4a7c4ce2f6ad872c421656630651e02fd1fe6d67346ce23"
+}

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.qa/
+tools/_qa/
+*.pyc
+.env
+.env.*
+TOKEN.txt
+*.pem
+*.key

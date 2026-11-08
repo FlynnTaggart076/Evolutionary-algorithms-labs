@@ -1,0 +1,51 @@
+{
+  "parameters": {
+    "variant": 1,
+    "student_number": 11,
+    "group": "517",
+    "Q": 1,
+    "Y": 26,
+    "runs": 20,
+    "seed_start": 1000,
+    "budget": 30000,
+    "success_tolerance": 1e-06,
+    "ga": {
+      "population": 100,
+      "elite": 2,
+      "tournament": 3,
+      "crossover_probability": 0.9,
+      "blx_alpha": 0.3,
+      "mutation_scale": 0.05
+    },
+    "comparison_mutation_scale": 0.15
+  },
+  "ga_configurations": [
+    {
+      "population": 100,
+      "elite": 2,
+      "tournament": 3,
+      "crossover_probability": 0.9,
+      "blx_alpha": 0.3,
+      "mutation_scale": 0.05
+    },
+    {
+      "population": 100,
+      "elite": 2,
+      "tournament": 3,
+      "crossover_probability": 0.9,
+      "blx_alpha": 0.3,
+      "mutation_scale": 0.15
+    }
+  ],
+  "python": "3.13.14",
+  "numpy": "2.5.4",
+  "problem": {
+    "name": "Сфера",
+    "dimension": 6,
+    "bounds": [
+      -100,
+      100
+    ],
+    "optimum": 0.0
+  }
+}

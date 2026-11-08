@@ -1,0 +1,9 @@
+{
+  "runs": 80,
+  "expected_runs": 80,
+  "equal_budget": true,
+  "all_archives_feasible": true,
+  "all_values_bounded_by_exact_optimum": true,
+  "exact_optimum": 1404,
+  "total_seconds": 12.436679800000093
+}

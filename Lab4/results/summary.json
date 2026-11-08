@@ -1,0 +1,41 @@
+{
+  "summary": [
+    {
+      "algorithm": "ga",
+      "runs": 30,
+      "best": 430.0260521929731,
+      "mean": 445.5898940968735,
+      "median": 445.707590183412,
+      "std": 9.008363709711471,
+      "worst": 478.00252120743244,
+      "mean_seconds": 0.3942353666666501,
+      "mean_local_evaluations": 0.0
+    },
+    {
+      "algorithm": "memetic",
+      "runs": 30,
+      "best": 509.4188633328081,
+      "mean": 571.0106122648431,
+      "median": 571.2588893091372,
+      "std": 32.284992410047174,
+      "worst": 655.7013144955781,
+      "mean_seconds": 0.17903311999997035,
+      "mean_local_evaluations": 17205.933333333334
+    },
+    {
+      "algorithm": "memetic_sparse",
+      "runs": 30,
+      "best": 428.71066636572914,
+      "mean": 444.793569352528,
+      "median": 443.3664957536863,
+      "std": 15.771437395511642,
+      "worst": 515.0561083847936,
+      "mean_seconds": 0.3119401533333227,
+      "mean_local_evaluations": 6647.1
+    }
+  ],
+  "reference": {
+    "nearest_neighbor": 460.4080276725116,
+    "mst_lower_bound": 354.7193909614138
+  }
+}
