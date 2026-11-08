@@ -48,7 +48,6 @@
     }
   },
   "sha256": {
-    "Lab1/.pytest_cache/README.md": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
     "Lab1/config.json": "47f41a47361a110a33dafcc3e655c4ffebb45ec71655213f9f5dfdf1c3baa99a",
     "Lab1/ga.py": "452940aa2aed4afe0f59dced3f60b2dea277b24f2859d94643df492cf4dc7570",
     "Lab1/objectives.py": "b0f8fa1a612931dcdde8685c57ad88af389a21c098f89883e6664cd01c7964a9",
@@ -148,7 +147,6 @@
     "Lab3/results/summary.json": "67c5c04278cee807058bb22dc66e2fdb6d4f9f20856db38066a5b084493d49ce",
     "Lab3/test_portfolio.py": "bfb7e231d21b94089298e19fd020044439a69b55657c2d7fa3393042a3b53f51",
     "Lab3/test_regressions.py": "fa2ccf27d7614942a2a110bf3ffeda85387f6691d7771206c23bb807f1ed3ffb",
-    "Lab4/.pytest_cache/README.md": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
     "Lab4/algorithm.py": "01aae59c47ae901fa2cce3807baf691f599b904dbd82e2296bf44c03a1ad12d9",
     "Lab4/config.json": "25beed150ac15eeeda4103b2ed27a156b65065b2c83677984840dc9ff44ea867",
     "Lab4/data.csv": "b25ee6db06b79b8fb4a7c4ce2f6ad872c421656630651e02fd1fe6d67346ce23",
@@ -178,6 +176,6 @@
     "README.md": "3b62d89b70fbee50dbd5985e42682978dac7da0a88d33d73f8e9522d4d05a6d2",
     "tools/build_reports.py": "3ff9670aaf7c9e597eb6a98ea7707c949b2dda6245e28d02dfd3b521ca648446",
     "tools/test_reports.py": "d8ffff5ddc7a41466f7506ec80ad4a96a7174eba1ad5767cd9c1f55cc67393ec",
-    "tools/verify_results.py": "feebcec70c1634910aafe7f7db7248c6f4f5feebbdcb099ac49bd5bb23f2f837"
+    "tools/verify_results.py": "c1a0d095f850285bdf38b5e9334b84865e30849449c0282d47e8be9024a42980"
   }
 }

@@ -247,6 +247,8 @@ def main():
     hashes = {}
     for lab in [ROOT / f"Lab{i}" for i in range(1,5)]:
         for path in sorted(lab.rglob("*")):
+            if any(part in {"__pycache__", ".pytest_cache", ".qa"} for part in path.relative_to(lab).parts):
+                continue
             if path.is_file() and path.suffix in {".py", ".json", ".md", ".pdf", ".csv", ".png"}:
                 hashes[str(path.relative_to(ROOT)).replace("\\", "/")] = hashlib.sha256(path.read_bytes()).hexdigest()
     for path in [ROOT / "reproduce.py", ROOT / "requirements.txt", ROOT / "README.md", *sorted((ROOT / "tools").glob("*.py"))]:
@@ -255,7 +257,8 @@ def main():
               "checks": results, "sha256": hashes}
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n",
+                               encoding="utf-8", newline="\n")
     print(json.dumps({k:v for k,v in result.items() if k != "sha256"}, ensure_ascii=False, indent=2))
 
 
